@@ -5,24 +5,16 @@ import React, { useState, useEffect } from 'react';
 import NasaDetails from './NasaDetails';
 
 function App() {
-const initialFormState={
-  date: ''
-};
-const [formState, setFormState] = useState(initialFormState)
 
 
 	return (
 		<div className='App'>
-			<nav>
-				<ul>
-					<li>{/* link here */}</li>
-				</ul>
-			</nav>
+			
 
 			<Routes>
-				<Route path='/' element={<Home formState={formState} setFormState={setFormState} initialFormState={initialFormState}/>} />
+				<Route path='/' element={<Home />} />
 
-				<Route path='/details' element={<NasaDetails />} />
+				<Route path='/details/:date' element={<NasaDetails />} />
 			</Routes>
 		</div>
 	);

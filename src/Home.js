@@ -1,7 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function Home({ formState, setFormState, initialFormState }) {
+function Home(props) {
+	let navigate = useNavigate();
+	const initialFormState = {
+		date: '',
+	};
+	const [formState, setFormState] = useState(initialFormState);
+
 	function handleChange(event) {
 		setFormState({ ...formState, date: event.target.value });
 	}
@@ -9,8 +15,9 @@ function Home({ formState, setFormState, initialFormState }) {
 	function handleSubmit(event) {
 		event.preventDefault();
 		console.log('click');
-		console.log(formState);
 		setFormState(initialFormState);
+		navigate(`/details/${formState.date}`);
+		console.log(formState.date, 'newformstate');
 	}
 
 	return (

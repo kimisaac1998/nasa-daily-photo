@@ -9,6 +9,7 @@ function App() {
 	const currentDate = `${current.getFullYear()}-${
 		current.getMonth() + 1
 	}-${current.getDate()}`;
+	// this code was learned and implemented from "https://www.codegrepper.com/code-examples/javascript/how+to+get+current+date+in+react+js"
 
 	return (
 		<div className='App'>

@@ -8,21 +8,22 @@ function NasaDetails(props) {
 		saveAs(nasa.url);
 	};
 	const { date } = useParams();
-	// const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=${process.env.REACT_APP_IEX_KEY}`;
 
 	const [nasa, setNasa] = useState(null);
 	useEffect(() => {
-		
-		fetch(
-			`https://api.nasa.gov/planetary/apod?date=${date}&api_key=${process.env.REACT_APP_IEX_KEY}`
-		)
-			.then((res) => res.json())
-			.then((res) => {
-				setNasa(res);
-			})
-			.catch((err) => {
-				console.error(err);
-			});
+		const getUrl = () => {
+			return fetch(
+				`https://api.nasa.gov/planetary/apod?date=${date}&api_key=${process.env.REACT_APP_IEX_KEY}`
+			)
+				.then((res) => res.json())
+				.then((res) => {
+					setNasa(res);
+				})
+				.catch((err) => {
+					console.error(err);
+				});
+		};
+		getUrl();
 	}, []);
 
 	if (!nasa) {

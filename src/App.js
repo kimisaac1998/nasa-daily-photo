@@ -13,9 +13,6 @@ function App() {
 		}-${current.getDate()}`;
 
 
-console.log(currentDate)
-
-
 	return (
 		<div className='App'>
 			<nav>
@@ -24,7 +21,7 @@ console.log(currentDate)
 						<Link to='/'>Home</Link>
 					</li>
 					<li>
-						<Link to={`/details/${currentDate}`}>Today's Photo</Link>
+						<a href ={`/details/${currentDate}`}>Today's Photo</a>
 					</li>
 				</ul>
 			</nav>
@@ -32,7 +29,10 @@ console.log(currentDate)
 			<Routes>
 				<Route path='/' element={<Home />} />
 
-				<Route path='/details/:date' element={<NasaDetails />} />
+				<Route path='/details/:date'
+				 element={<NasaDetails />} />
+				
+
 				<Route path='*' element={<NotFound />} />
 			</Routes>
 		</div>

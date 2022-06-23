@@ -5,6 +5,7 @@ import "./NotFound.css"
 function NotFound(props) {
 	return (
 		<div className="notFound">
+			<title>Not Found!</title>
 			<h2>
 				Oops! Page not found. Click <Link to='/' className="here">here</Link> to go back home.
 			</h2>

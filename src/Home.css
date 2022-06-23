@@ -1,0 +1,58 @@
+.link {
+height: 100vh;
+width: 100%;
+text-align: center;
+background-color: grey;
+    font-family: 'Helvetica', Arial, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+h1 {
+    grid-row: 1;
+    grid-column: 2;
+    position: relative;
+    top: 30px;
+}
+
+form {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+form>label{
+    font-size: 30px;
+}
+
+form>input{
+ box-sizing: border-box;
+ margin: 8px 0;
+ width: 100%;
+ padding: 12px 30px 12px;   
+}
+
+form>input:hover{
+    color: rgb(98, 98, 180)
+}
+
+#dateInput{
+    font-size: 25px;
+}
+
+form>button {
+    width: 50%;
+    height: 20%;
+    margin: 10px 0;
+    background-color: #212F3C;
+    padding: 13px 10px 13px;
+    color: white;
+    border-radius: 6px; 
+    font-size: 20px; 
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+ 
+form>button:hover{
+    color: black;
+}

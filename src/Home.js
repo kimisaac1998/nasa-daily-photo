@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import "./Home.css";
 
 function Home(props) {
 	let navigate = useNavigate();
@@ -14,17 +15,16 @@ function Home(props) {
 
 	function handleSubmit(event) {
 		event.preventDefault();
-		console.log('click');
 		setFormState(initialFormState);
 		navigate(`/details/${formState.date}`);
-		console.log(formState.date, 'newformstate');
 	}
 
 	return (
 		<div className='link'>
-			<h1>Nasa photo</h1>
+			<title>Nasa Photo Home</title>
+			<h1>Nasa Daily Photo</h1>
 			<form onSubmit={handleSubmit}>
-				<label htmlFor='dateInput'>Date: </label>
+				<label htmlFor='dateInput'>Input Date: </label>
 				<input
 					type='date'
 					id='dateInput'

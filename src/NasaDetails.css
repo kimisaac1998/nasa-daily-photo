@@ -1,0 +1,39 @@
+.details{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.details>h2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.details>img{
+    height: 50vh;
+    width: 100%;
+    grid-row: 2;
+    grid-column: 1/span 3;
+    border: 3px solid black;
+
+}
+
+.details>h3{
+    grid-row: 3;
+    grid-column: 3;
+}
+.details>h4 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.details>p{
+    grid-row: 4;
+    grid-column: 1/span 3;
+}

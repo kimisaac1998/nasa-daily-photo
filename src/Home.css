@@ -75,7 +75,7 @@ form>button:hover{
     color: black;
 }
 
-@media (max-width: 810px) {
+@media screen and (max-width: 810px) {
 
 form>label {
         font-size: 20px;
@@ -110,7 +110,7 @@ h1{
 
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     #dateInput {
             font-size: 10px;
         }

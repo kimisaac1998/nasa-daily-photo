@@ -12,11 +12,11 @@ function NasaDetails(props) {
 	const [nasa, setNasa] = useState(null);
 	useEffect(() => {
 		const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=${process.env.REACT_APP_IEX_KEY}`;
-
 		fetch(url)
 			.then((res) => res.json())
 			.then((res) => {
 				setNasa(res);
+
 			})
 			.catch((err) => {
 				console.error(err);

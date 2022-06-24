@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# NASA Daily Photo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![This is an image](/public/images/Screen%20Shot%202022-06-23%20at%2011.57.17%20PM.png)
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- JSX
+- CSS
+- JavaScript
+- React
 
-### `npm start`
+## Installation Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit [Daily Nasa Photo!](https://nasadailys.netlify.app/) to view the webpage or clone this repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Stories
 
-### `npm test`
+- As a user I want to be able to see an input box so I can search for any old or current photos.
+- As a user I want a detailed page about the photo so that I can see all the information of that photo.
+- As a user I want a way to go back to the homepage, so that I can search for more photos.
+- As a user I want a error page so that I can know when the link has been broken.
+- As a user I want to be able to access the website from any device so that it can be accessible for everyone.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Wireframes
 
-### `npm run build`
+![This is an image](/public/images/Screen%20Shot%202022-06-16%20at%2012.12.05%20PM.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.33.26%20PM.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.38.11%20PM.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.39.04%20PM.png)
 
-### `npm run eject`
+## Hurdles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Finding a reliable API was a hurdle in itself. I had trouble finding an API that would suite my project idea, ultimately I decided to use an API that would be reliable and built my React App around it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- It was challenging deploying the react website due to API sometimes being buggy.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- When making websites, I always try to make my website look very good looking, and have a modern feel to it. I had trouble styling it due to its simplicity.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Resources
 
-## Learn More
+[currentNewDateFunction] (https://www.codegrepper.com/code-examples/javascript/how+to+get+current+date+in+react+js) function that brings back the current date.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[NasaFavicon] (https://www.favicon.cc/?action=icon&file_id=115194) icon for my Nasa Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[keyframesTransition] (https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) resource for keyframes background-image css transition

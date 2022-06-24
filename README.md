@@ -25,11 +25,11 @@ Visit [Daily Nasa Photo!](https://nasadailys.netlify.app/) to view the webpage o
 
 ![This is an image](/public/images/Screen%20Shot%202022-06-16%20at%2012.12.05%20PM.png)
 
-![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.33.26%20PM.png)
+![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.39.04%20PM.png)
 
 ![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.38.11%20PM.png)
 
-![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.39.04%20PM.png)
+![This is an image](/public/images/Screen%20Shot%202022-06-17%20at%202.33.26%20PM.png)
 
 ## Hurdles
 
@@ -41,8 +41,8 @@ Visit [Daily Nasa Photo!](https://nasadailys.netlify.app/) to view the webpage o
 
 ## Resources
 
-[currentNewDateFunction] (https://www.codegrepper.com/code-examples/javascript/how+to+get+current+date+in+react+js) function that brings back the current date.
+[Current New Date Function](https://www.codegrepper.com/code-examples/javascript/how+to+get+current+date+in+react+js) function that brings back the current date.
 
-[NasaFavicon] (https://www.favicon.cc/?action=icon&file_id=115194) icon for my Nasa Project
+[Nasa Favicon](https://www.favicon.cc/?action=icon&file_id=115194) icon for my Nasa Project
 
-[keyframesTransition] (https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) resource for keyframes background-image css transition
+[keyframes Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) resource for keyframes background-image css transition

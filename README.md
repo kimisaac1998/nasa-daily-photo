@@ -2,16 +2,25 @@
 
 ![This is an image](/public/images/Screen%20Shot%202022-06-23%20at%2011.57.17%20PM.png)
 
+## Description
+
+This website will show a photo with description NASA has uploaded. The user will be able to search a photo to a specified date as well as easily access the current day's photo. Their will be a description and a option to download the photo. If anything is typed incorrectly onto the input form, there will be a redirect to a error page.
+
 ## Technologies Used
 
 - JSX
 - CSS
 - JavaScript
 - React
+- HTML
 
 ## Installation Instructions
 
 Visit [Daily Nasa Photo!](https://nasadailys.netlify.app/) to view the webpage or clone this repository.
+
+## Contribution Guidelines
+
+Any contributions will be appreciated. Please fork, clone and submit a pull request to contribute!
 
 ## User Stories
 

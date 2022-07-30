@@ -140,7 +140,7 @@
 }
 
 @media screen and (max-width: 450px){
-    .details>h2 {
+    /* .details>h2 {
             font-size: 13px;
         }
     
@@ -155,7 +155,7 @@
     
         .details>p {
             font-size: 9px;
-        }
+        } */
 
         .details>button {
         grid-row: 3;
